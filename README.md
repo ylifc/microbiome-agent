@@ -76,12 +76,12 @@ HTTP MCP 绑定 `127.0.0.1`，地址为 `http://127.0.0.1:8765/mcp`。MCP 工具
 
 ## 文档与许可
 
-- [中文与 English 使用手册](Microbiome_Agent_使用手册_中英双语.docx)
-- [总体思维导图源码](source/docs/agent-guide/mindmap.mmd)
-- [Visualization skill](source/docs/agent-guide/skills/microbiome-visualization/SKILL.md)
-- [流程目录](source/docs/workflow_catalog.md)
-- [安装与发行包验证](source/docs/packaging.md)
-- [许可说明](source/LICENSE)
+- [中文与 English 使用手册（Word）](Microbiome_Agent_使用手册_中英双语.docx) | [Markdown](Microbiome_Agent_使用手册_中英双语.md)
+- [思维导图源码](mindmap.mmd)
+- [可视化 Skill](microbiome-visualization-SKILL.md) | [Skill 全量包](microbiome-visualization-skill.tar.gz)
+- [流程目录](workflow_catalog.md)
+- [发行包说明](packaging.md)
+- [LICENSE](LICENSE)
 
 代码以 Apache-2.0 许可提供；第三方软件和生物数据库遵循各自许可。来源和当前验证边界见 `source/docs/`、`catalog/` 与 `manifest.json`。
 
@@ -114,5 +114,5 @@ Define the scientific question and independent unit; resolve local inputs; inspe
 
 The source and release bundle exclude real sample FASTQ files, private databases, local state, model credentials, and user-specific configuration. `CURATED_REFERENCE` means a reviewed method guide, not an installed executable route. DNA-derived TPM is relative gene abundance, not RNA expression or metabolic flux. WGCNA requires adequate independent samples; it is not a causal mechanism by itself. Production replays the frozen, approved contract and does not install or silently change scientific parameters.
 
-See the [full bilingual handbook](Microbiome_Agent_使用手册_中英双语.docx), [visualization skill](source/docs/agent-guide/skills/microbiome-visualization/SKILL.md), [workflow catalog](source/docs/workflow_catalog.md), and release `manifest.json` for the detailed guide and exact packaged inventory.
+See the [full bilingual handbook (Word)](Microbiome_Agent_使用手册_中英双语.docx) and [Markdown](Microbiome_Agent_使用手册_中英双语.md), [visualization skill](microbiome-visualization-SKILL.md) and [complete skill archive](microbiome-visualization-skill.tar.gz), [workflow catalog](workflow_catalog.md), and release `manifest.json` for the detailed guide and exact packaged inventory.
 
