@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-10-19",
+  "source_bundle_manifest_sha256": "89412ea9a21f6199966689c1889ceca67958e8c0f97c3456799df466b3cf2abe",
+  "existing_consolidated_notices_found": false,
+  "notice_sha256": "d1017736f77107248e87565f6bc7a7145ee6e4937eefddddd44cafe2496f7eba",
+  "distributions": [
+    {
+      "distribution": "langchain-text-splitters",
+      "version": "1.1.2",
+      "repository": "langchain-ai/langchain",
+      "tag": "langchain-text-splitters==1.1.2",
+      "commit": "58c4e5bbdd9d18d7fe7ec83b5a05477d06fe2a8e",
+      "wheel": "langchain_text_splitters-1.1.2-py3-none-any.whl",
+      "expected_license_sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+      "version_source": "libs/text-splitters/pyproject.toml",
+      "license_url": "https://raw.githubusercontent.com/langchain-ai/langchain/58c4e5bbdd9d18d7fe7ec83b5a05477d06fe2a8e/LICENSE",
+      "license_sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+      "wheel_sha256": "a2de0d799ff31886429fd6e2e0032df275b60ec817c19059a7b46181cc1c2f10",
+      "pypi_metadata_url": "https://pypi.org/pypi/langchain-text-splitters/1.1.2/json",
+      "pypi_hash_match": true,
+      "source_version_verified": true,
+      "license_bytes": 1067,
+      "copyright_lines": [
+        "Copyright (c) LangChain, Inc."
+      ]
+    },
+    {
+      "distribution": "langsmith",
+      "version": "0.14.1",
+      "repository": "langchain-ai/langsmith-sdk",
+      "tag": "v0.14.1",
+      "commit": "c51e722026138478b728884d9a3b504ef2ba8ea0",
+      "wheel": "langsmith-0.14.1-py3-none-any.whl",
+      "expected_license_sha256": "34e0b9842c7a31d34e53bc7eb224e81e07a34996106e029bbc72dea2d449f496",
+      "version_source": "python/langsmith/__init__.py",
+      "license_url": "https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/c51e722026138478b728884d9a3b504ef2ba8ea0/LICENSE",
+      "license_sha256": "34e0b9842c7a31d34e53bc7eb224e81e07a34996106e029bbc72dea2d449f496",
+      "wheel_sha256": "dcfd8a25ba72d8663024bd87df02e372e470f43e18f4a726f37fbacc772c0193",
+      "pypi_metadata_url": "https://pypi.org/pypi/langsmith/0.14.1/json",
+      "pypi_hash_match": true,
+      "source_version_verified": true,
+      "license_bytes": 1066,
+      "copyright_lines": [
+        "Copyright (c) 2023 LangChain"
+      ]
+    }
+  ]
+}

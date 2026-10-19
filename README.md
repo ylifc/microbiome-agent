@@ -1,118 +1,58 @@
 # Microbiome Agent
 
-**微生物生物信息工作流引擎与宿主工具服务 / Host-callable microbial bioinformatics workflow engine**
+公开的微生物生物信息工作流引擎与宿主工具服务。当前发行版本 **0.2.5（r10）**，发布于 2026-10-19。
 
-中文 | [English](#english)
+## 下载与源码
 
-![Microbiome Agent mind map](mindmap.png)
+- [最新版完整安装包 microbiome-latest.zip](https://github.com/ylifc/microbiome-agent/releases/latest/download/microbiome-latest.zip)
+- [ZIP SHA-256 校验文件](https://github.com/ylifc/microbiome-agent/releases/latest/download/microbiome-latest.zip.sha256)
+- [完整源码快照：microbiome-0.2.5-source.tar.gz](microbiome-0.2.5-source.tar.gz)（888 个文件，含测试、文档、配置模板和安装脚本）
+- [0.2.5 修改说明](RELEASE_NOTES_0.2.5.md) · [Harness 安装指南](DeepSeek_Harness_Microbiome_Guide.md) · [第三方许可证补充](THIRD_PARTY_NOTICES.md)
+- [本次工程验收报告](VALIDATION_REPORT_0.2.5.md) · [发布文件清单](release-manifest.json)
 
-Microbiome 把自然语言研究问题衔接到可审阅、可追踪的微生物生物信息流程。Codex、VS Code 或 WorkBuddy 提供对话模型；Microbiome 提供 JSON/MCP 工具、方法目录、本地资源检查、项目状态、持久任务、预检、冻结与生产记录。
+此仓库采用源码快照和 Release 附件发布。完整引擎源码在上述源码压缩包及完整 ZIP 的 `microbiome-0.2.5/bundle/source/` 内；GitHub 自动生成的 Source code 归档是本仓库的发布资料快照。根目录保留的 0.1.0 包、旧手册、旧 manifest/verification 是历史资料；当前安装与校验以本页、0.2.5 指南和 `release-manifest.json` 为准。
 
-## 功能范围
+完整 ZIP 为 **92,992,994 字节**，SHA-256：
 
-- 22 条 curated workflow references：扩增子、shotgun、细菌/古菌/真菌 MAG 与 contig、单菌基因组、RNA 与宏转录组、病毒、系统发育、功能注释、宿主去除、移动元件/耐药及基础序列统计。
-- 可检查本地输入 manifest、样本身份、软件/数据库登记和冻结计划；支持持久任务与 JSON CLI / MCP 接入。
-- 小型本地 FASTA/FASTQ 统计可直接运行；科研分析须经过输入解析、方法与依赖审阅、项目预检和相应验收。
-- 可视化技能覆盖群落、系统发育、MAG、contig 基因图、gene TPM 与 KEGG/NR/COG/arCOG 功能展示，并含 R/Python 工具配方。
-- WGCNA 指南覆盖矩阵契约、预检、网络构建、eigengene、性状关联和稳定性检查；小样本下需保持探索性解释。
-
-## 快速开始
-
-在 Linux 或 WSL2 上，将发行包安装到一个新的受管目录：
-
-```bash
-bash install.sh --prefix /work/microbiome-runtime
-/work/microbiome-runtime/bin/microbiome doctor
-/work/microbiome-runtime/bin/microbiome export --host codex --output /work/new-codex-adapter
+```text
+ca49adc748334ec99bb3bceb59f9ffefb34ae99303aadeae77d939a15c75c1ac
 ```
 
-安装创建隔离 Python 环境并核验入口。它不会自动安装全部科学软件或下载数据库。把导出的宿主 Skill/MCP 配置检查后合并到宿主配置。也支持 `--host vscode` 和 `--host workbuddy`。
+## 功能与本次修复
 
-## 推荐工作顺序
+Microbiome 为现有宿主提供工作流、维护、资源登记、状态查询、持久后台任务和审阅检查点。宿主提供模型；引擎负责输入合同、资源入口、预检、冻结锁、确定性执行和可核查记录。包含 22 份工作流参考、142 份 Skill，以及 workflow / visualization 宿主接入材料。
 
-1. 明确问题、独立生物学单位、比较设计、目标图表和限制。
-2. 初始化项目并解析本地输入 manifest。
-3. 查询相关 workflow reference 和本机软件/数据库状态。
-4. 比较方法与备选方案，提交可审阅计划和依赖范围。
-5. 查看完整决策材料及指纹，在对应项目模式下真实审批。
-6. 运行有代表性的预检，查看实际日志、输出身份和资源消耗。
-7. 接受预检后冻结方案，明确启动生产并保存真实 job/run ID。
-8. 审查结果与图像；失败时使用公开恢复接口和原 run ID。
+0.2.5 修复了规划上下文容量、候选检查点、输入确认事务、有限恢复、资源入口一致性、工具参数合同、命令与验收结果区分、会话导出以及安装身份一致性。原生审阅正文由已校验合同生成，模型原文另存审计材料。
 
-## JSON/MCP 调用示例
+本地输入优先；已验证 READY 软件和数据库复用。生产执行冻结合同，不重新规划、不修改科学参数。代码源自 Biomni，保留 Apache-2.0 许可和原始归属；第三方依赖遵循各自许可。
+
+## 安装
+
+完整 ZIP 的离线 Python wheels 面向 **Linux x86_64 / CPython 3.13**，需要已有兼容 Python。科学工具、R 及参考数据库按批准的任务依赖另行管理。
 
 ```bash
-microbiome-service init \
-  --project /work/study --raw-data /data/reads \
-  --database /data/microbiome-db --output /work/results
-
-microbiome-service call input.resolve --json \
-  '{"project":"/work/study","declaration":"/data/reads/samples.tsv"}'
-
-microbiome-service call catalog.search --json \
-  '{"query":"bacterial MAG phylogeny"}'
-
-microbiome-service call project.inspect --json \
-  '{"project":"/work/study"}'
-
-microbiome mcp --transport http --port 8765
+sha256sum -c microbiome-latest.zip.sha256
+unzip microbiome-latest.zip
+cd microbiome-0.2.5/bundle
+# DeepSeek Harness 原生集成
+python3.13 scripts/install_harness.py --bundle . --offline
+# 或独立 CLI 安装
+bash install.sh --prefix /work/microbiome-runtime --python python3.13
 ```
 
-HTTP MCP 绑定 `127.0.0.1`，地址为 `http://127.0.0.1:8765/mcp`。MCP 工具服务不是模型服务或公网调度器。已有 OpenAI-compatible 模型服务只能通过用户明确提供的 URL 连接。
+升级、回滚和宿主配置以 [安装指南](DeepSeek_Harness_Microbiome_Guide.md) 为准。公开发布只补充了第三方 MIT 许可证，已验收代码、插件、依赖 wheels 和原始测试记录未改变。
 
-## 图表与功能组学
+## 验证与已知边界
 
-安装后可将仓库内 `source/docs/agent-guide/skills/microbiome-visualization/` 复制到宿主支持的 Skill 目录。技能说明涵盖图种、输入模式、解释限制、R/base 与 ggplot2/phyloseq/vegan/ape 的参考路线，以及 iTOL、FigTree、Cytoscape、IGV、Python 大树等工作方式。具体软件包仍须在目标环境检查。
+- 131 项相关 Python 回归通过，包含 `tests/test_frozen_pipeline.py`；25 项审阅/恢复专项通过（测试集合有重叠）。
+- 60 项 Node 宿主测试通过，无跳过。
+- 本机 DeepSeek Harness 0.1.0-rc.12 的真实模型任务以人工数值 TSV 完成规划、批准、预检、冻结、生产和导出；独立审计 49 项通过。
+- 验证不是全部真实生物分析流程的科学验收，未覆盖真实参考下载/索引构建、复杂科学流程或 Electron UI。验收中一次分页参数缺失经补齐恢复；摘要的诊断状态和大整数显示问题仍记录在报告中。
 
-功能图保留 gene family 与 contig locus 的区别，保存数据库版本、命中映射、TPM/计数单位、完整/分数分配政策，并区分基因丰度、pathway/module 成员完整度与代谢活动。WGCNA 是统计网络分析；必须检查独立样本数、输入矩阵和性状映射。技能文本不表示 WGCNA 包已安装或真实网络已经计算。
-
-## 数据与生产边界
-
-- 发布包不带真实 FASTQ、用户数据库、运行目录、账号凭据或机器私有配置。
-- 本地输入优先；缺失文件是路径/输入问题，不会默认为 SRA 下载请求。
-- 已验证为 `READY` 的环境与数据库应复用。生产阶段按冻结计划重放，不安装或改科学参数。
-- `CURATED_REFERENCE` 是方法参考，不是可执行状态。包内 catalog/manifest 提供实际发行快照和哈希。
-- 预检/合成测试/真实生产分别标记；文件生成或退出码不能单独替代科学验收和图像检查。
-
-## 文档与许可
-
-- [中文与 English 使用手册（Word）](Microbiome_Agent_使用手册_中英双语.docx) | [Markdown](Microbiome_Agent_使用手册_中英双语.md)
-- [思维导图源码](mindmap.mmd)
-- [可视化 Skill](microbiome-visualization-SKILL.md) | [Skill 全量包](microbiome-visualization-skill.tar.gz)
-- [流程目录](workflow_catalog.md)
-- [发行包说明](packaging.md)
-- [LICENSE](LICENSE)
-
-代码以 Apache-2.0 许可提供；第三方软件和生物数据库遵循各自许可。来源和当前验证边界见 `source/docs/`、`catalog/` 与 `manifest.json`。
+ZIP 包含精选工程验收日志和人工测试会话，可能出现本地路径、用户名和测试标识；不包含账号密钥、完整宿主配置或真实样本数据。
 
 ## English
 
-Microbiome is a microbial bioinformatics workflow engine exposed to existing agent hosts. The host provides the conversational model. Microbiome provides versioned JSON/MCP operations, a curated workflow catalog, local input and resource inspection, persistent jobs, pretest evidence, frozen plans, and execution records.
+Microbiome is an Apache-2.0 bioinformatics workflow engine for existing agent hosts. Version 0.2.5 r10 provides complete source, matching Harness integration, offline Python dependencies, workflow/visualization guidance, tests and curated engineering validation evidence. Download the complete ZIP from Releases or the separate 888-file source snapshot above. The bundled wheels target Linux x86_64 / Python 3.13.
 
-### Capabilities
-
-- 22 curated workflow references span amplicons, shotgun profiles, bacterial/archaeal/fungal MAGs and contigs, isolate genomes, RNA-seq and metatranscriptomes, viruses, phylogeny, functional annotation, host depletion, mobile elements/AMR, and sequence statistics.
-- Local input manifests, software/database readiness, requirements, plans, decisions, dependencies, durable jobs, and status are accessible through the versioned JSON service and MCP.
-- A bounded local FASTA/FASTQ statistics utility can run without a model or scientific project. Full analyses still need project-specific input resolution, design review, dependency planning, pretest, and acceptance.
-- The visualization skill documents community ecology, phylogeny, MAG/contig/gene TPM, KEGG/NR/COG/arCOG, and WGCNA figure routes, with R/Python examples and interpretation checks.
-
-### Quick start
-
-```bash
-bash install.sh --prefix /work/microbiome-runtime
-/work/microbiome-runtime/bin/microbiome doctor
-/work/microbiome-runtime/bin/microbiome export --host codex --output /work/new-codex-adapter
-```
-
-Install the adapter into an existing host after reviewing the generated settings. VS Code and WorkBuddy are also supported. The installer provisions the Microbiome Python runtime; it does not install every scientific executable or download reference databases.
-
-### Recommended lifecycle
-
-Define the scientific question and independent unit; resolve local inputs; inspect the relevant workflow and resources; compare methods and alternatives; review the complete plan and dependency scope; run and inspect a representative pretest; freeze the accepted workflow; explicitly start production; audit outputs and rendered figures. Use stable request IDs and the documented recovery interfaces for durable jobs.
-
-### Data and interpretation boundaries
-
-The source and release bundle exclude real sample FASTQ files, private databases, local state, model credentials, and user-specific configuration. `CURATED_REFERENCE` means a reviewed method guide, not an installed executable route. DNA-derived TPM is relative gene abundance, not RNA expression or metabolic flux. WGCNA requires adequate independent samples; it is not a causal mechanism by itself. Production replays the frozen, approved contract and does not install or silently change scientific parameters.
-
-See the [full bilingual handbook (Word)](Microbiome_Agent_使用手册_中英双语.docx) and [Markdown](Microbiome_Agent_使用手册_中英双语.md), [visualization skill](microbiome-visualization-SKILL.md) and [complete skill archive](microbiome-visualization-skill.tar.gz), [workflow catalog](workflow_catalog.md), and release `manifest.json` for the detailed guide and exact packaged inventory.
-
+The native Harness synthetic TSV task reached COMPLETED and passed 49 independent audit checks. This verifies software execution for that task; it does not certify every scientific workflow. See the release notes, installation guide and validation report for capabilities and remaining limitations. Earlier root-level artifacts are retained as historical references.
