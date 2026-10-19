@@ -1,0 +1,26 @@
+mindmap
+  root((选择执行机器 再选择宿主))
+    先检查安装前提
+      Linux x86_64 和 Python 3.13
+      空间网络与 user namespace
+      完整包及 SHA256 一致
+    DeepSeek Harness
+      安装受管 runtime 与 preset
+      新会话加载原生工具
+      模型路由由宿主提供
+    Codex 与 VS Code
+      导出双 Skill 与 MCP 片段
+      合并到现有宿主配置
+      检查工具列表和调用身份
+    WorkBuddy 与脚本
+      导出 Skill 并准备 CLI
+      核实执行机和绝对路径
+      不要虚构专用 MCP 适配
+    已有模型 endpoint
+      由用户明确提供服务地址
+      核查模型与上下文能力
+      不要借用宿主订阅凭据
+    每条路线都要验证
+      doctor 检查安装内容
+      能力回执检查接口与版本
+      独立确认科学资源就绪

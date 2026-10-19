@@ -1,0 +1,16 @@
+flowchart TD
+  n0["1 先区分生产与维护<br/>生产只验锁 缺失或漂移即停止<br/>后续查找只用于生产前或维护"]
+  n1["2 已验证 Registry<br/>读取 executable 和入口<br/>核对版本marker与指纹"]
+  n2["3 既有 Skill 映射<br/>查名称别名与使用指引<br/>映射本身不是安装证明"]
+  n3["4 所有既有 Conda 环境<br/>按实际能力探测<br/>环境名称不同也可复用"]
+  n4["5 PATH 与项目软件目录<br/>验证实际程序路径<br/>保留环境和版本证据"]
+  n5["6 Conda 元数据<br/>补全包名与能力关系<br/>避免重复创建健康环境"]
+  n6["7 批准范围内准备<br/>BOOTSTRAP / PRETEST_REPAIR<br/>数据库使用持久数据库根"]
+  n7["8 验证后登记 READY<br/>版本帮助和调用能力检查<br/>保存 Registry Skill Knowledge"]
+  n0 --> n1
+  n1 --> n2
+  n2 --> n3
+  n3 --> n4
+  n4 --> n5
+  n5 --> n6
+  n6 --> n7
