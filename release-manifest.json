@@ -4,7 +4,7 @@
   "publication_date": "2026-10-19",
   "repository": "ylifc/microbiome-agent",
   "source_files": 888,
-  "zip_entries": 1433,
+  "zip_entries": 1476,
   "bundle_source_sha256": "b60eb8461f7ccdf031c00a4182fc826043e9dd1c9799b3748abc6145e13e8f1b",
   "bundle_manifest_sha256": "89412ea9a21f6199966689c1889ceca67958e8c0f97c3456799df466b3cf2abe",
   "files": {
@@ -25,8 +25,8 @@
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     "RELEASE_NOTES_0.2.5.md": {
-      "bytes": 5224,
-      "sha256": "7df23d0cd6a9959c7d5f41186271f8507f8aefb42ac518040d6ba2ee415e1f6d"
+      "bytes": 5588,
+      "sha256": "3761124e50c60fe65ccd09b0b03c65bad7826399339b626e7bff55de273f30f4"
     },
     "DeepSeek_Harness_Microbiome_Guide.md": {
       "bytes": 17647,
@@ -37,10 +37,40 @@
       "sha256": "0ee5f38ee96752d4a10e79bb0899dbb61ac49715f40bc956788b3bd6f66b148a"
     },
     "microbiome-latest.zip": {
-      "bytes": 92992994,
-      "sha256": "ca49adc748334ec99bb3bceb59f9ffefb34ae99303aadeae77d939a15c75c1ac",
+      "bytes": 96896800,
+      "sha256": "cb16e1b953cf491057f8d062a8496283698839bc16c0c21ecc69f39010f7d229",
+      "location": "GitHub Release attachment"
+    },
+    "microbiome-latest.zip.sha256": {
+      "bytes": 88,
+      "sha256": "c67f621f9e9b849edc5721590594255bd67b1cf344c8830d39fa7f2efbbe4d95",
+      "location": "GitHub Release attachment"
+    },
+    "microbiome-manual-0.2.5.zip": {
+      "bytes": 3903310,
+      "sha256": "9be2c0790e22507bc608906235963de7f733484a7bce08b978af73aa78cc1fd7",
+      "location": "GitHub Release attachment"
+    },
+    "microbiome-manual-0.2.5.zip.sha256": {
+      "bytes": 94,
+      "sha256": "2855e76b9e75e95c680fc5318f1fa2348e889a29907d096195d44eab2229f7dd",
+      "location": "GitHub Release attachment"
+    },
+    "microbiome-manual-0.2.5.docx": {
+      "bytes": 1871044,
+      "sha256": "0352c5c2ed55e3121768177b85a059385447bccde1058ee96e44af76251cb278",
       "location": "GitHub Release attachment"
     }
   },
-  "packaging_supplement": "Third-party MIT notices added; validated r10 bundle and runtime unchanged."
+  "packaging_supplement": "Complete 119-page manual and START_HERE added outside bundle; all 1433 entries from the initial public ZIP remain byte-identical.",
+  "documentation_revision": "2026-10-19-complete-manual",
+  "manual": {
+    "pages": 119,
+    "parts": 5,
+    "diagrams": 8,
+    "han_characters": 49948,
+    "repository_path": "manual/",
+    "zip_path": "microbiome-0.2.5/manual/",
+    "manifest_sha256": "334422e859b0904505ddb6b4990ee5edba7d8d9e59a7020b25724d00de5a1304"
+  }
 }

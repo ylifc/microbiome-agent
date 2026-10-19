@@ -26,3 +26,7 @@
 在解压后的 `bundle/` 内，Harness 使用 `python3.13 scripts/install_harness.py --bundle . --offline` 安装或升级，回滚使用同一脚本的 `--rollback`。根目录 `install.sh`、`upgrade.sh`、`uninstall.sh` 用于独立 CLI，接受 `--prefix`。完整步骤见 [Harness 安装与迁移手册](../DeepSeek_Harness_Microbiome_Guide.md)。
 
 离线回归与真实模型验收分开报告。人工表格任务的实际阶段结果见交付 `validation/`；单个任务通过不代表所有复杂候选或科学资源均已验证，原生宿主服务验收不包含 Electron 桌面界面测试。
+
+## 2026-10-19 完整手册更新
+
+新增 119 页中文说明书、8 张流程图、分章阅读与软件数据库附录。说明书同时进入 GitHub manual/、独立资料 ZIP 和安装 ZIP 的 manual/。引擎 bundle 与初始公开 ZIP 的所有既有条目逐字节不变；容器摘要和大小更新，以 release-manifest.json 及配套 .sha256 为准。

@@ -2,6 +2,26 @@
 
 公开的微生物生物信息工作流引擎与宿主工具服务。当前发行版本 **0.2.5（r10）**，发布于 2026-10-19。
 
+## 完整使用说明书（2026-10-19 更新）
+
+**119 页、约 5 万汉字、8 张流程与思维导图**。涵盖 22 类工作流、107 个软件与 33 个数据库条目，逐项说明用途、输入输出、选择依据与解释边界。
+
+**[在线阅读完整说明书](manual/Microbiome%20Agent%200.2.5%20完整说明书.md)** · **[分章导航](manual/README.md)** · **[Word 下载](https://github.com/ylifc/microbiome-agent/releases/download/v0.2.5/microbiome-manual-0.2.5.docx)** · **[手册资料 ZIP](https://github.com/ylifc/microbiome-agent/releases/download/v0.2.5/microbiome-manual-0.2.5.zip)**
+
+| 阅读主题 | 具体内容 |
+| --- | --- |
+| [架构与全流程](manual/chapters/01_overview.md) | 组件职责、事实来源、输入、资源、规划、执行和结果验收流程图 |
+| [安装与宿主适配](manual/chapters/02_install_adapt.md) | Linux 环境、离线/源码安装、DeepSeek Harness、Codex、VS Code、WorkBuddy、升级、回退与卸载 |
+| [操作与恢复](manual/chapters/03_usage_operations.md) | 用户消息模板、输入声明、审阅、依赖准备、预检、冻结、生产、后台任务、预算修复、清理和导出 |
+| [软件与分析方法](manual/chapters/04_methods_resources.md) | 输入质量、群落分析、环境基因组、功能注释、RNA、统计、系统发育和可视化；[完整软件数据库附录](manual/reference/catalog-appendix.md) |
+| [维护与开发](manual/chapters/05_developer_reference.md) | 接口合同、源码模块、测试、构建打包、身份校验、文件格式与术语 |
+
+![项目能力与使用全景](manual/diagrams/01_overview.svg)
+
+[查看完整生命周期图](manual/diagrams/03_lifecycle.svg) · [查看全部图与 Mermaid 编辑源文件](manual/diagrams/)
+
+手册 ZIP 解压后打开 `index.html` 可离线阅读并筛选目录；同时提供 Word、Markdown、SVG、PNG 和 Mermaid 源文件。**完整安装 ZIP 也已包含同一版手册**，位于 `microbiome-0.2.5/manual/`。引擎版本仍为 0.2.5 r10，原始 bundle 与验收证据未改动。手册中旧 ZIP 摘要已标为历史基线，当前下载包使用下方现行校验文件。
+
 ## 下载与源码
 
 - [最新版完整安装包 microbiome-latest.zip](https://github.com/ylifc/microbiome-agent/releases/latest/download/microbiome-latest.zip)
@@ -12,10 +32,10 @@
 
 此仓库采用源码快照和 Release 附件发布。完整引擎源码在上述源码压缩包及完整 ZIP 的 `microbiome-0.2.5/bundle/source/` 内；GitHub 自动生成的 Source code 归档是本仓库的发布资料快照。根目录保留的 0.1.0 包、旧手册、旧 manifest/verification 是历史资料；当前安装与校验以本页、0.2.5 指南和 `release-manifest.json` 为准。
 
-完整 ZIP 为 **92,992,994 字节**，SHA-256：
+完整 ZIP 为 **96,896,800 字节**，SHA-256：
 
 ```text
-ca49adc748334ec99bb3bceb59f9ffefb34ae99303aadeae77d939a15c75c1ac
+cb16e1b953cf491057f8d062a8496283698839bc16c0c21ecc69f39010f7d229
 ```
 
 ## 功能与本次修复
@@ -37,10 +57,10 @@ cd microbiome-0.2.5/bundle
 # DeepSeek Harness 原生集成
 python3.13 scripts/install_harness.py --bundle . --offline
 # 或独立 CLI 安装
-bash install.sh --prefix /work/microbiome-runtime --python python3.13
+MICROBIOME_INSTALL_PYTHON=python3.13 bash install.sh --prefix "$HOME/.local/share/microbiome-runtime"
 ```
 
-升级、回滚和宿主配置以 [安装指南](DeepSeek_Harness_Microbiome_Guide.md) 为准。公开发布只补充了第三方 MIT 许可证，已验收代码、插件、依赖 wheels 和原始测试记录未改变。
+升级、回退和宿主配置以新版 [安装与适配章节](manual/chapters/02_install_adapt.md) 为准。此次更新补入完整手册；已验收代码、插件、依赖 wheels 和原始测试记录未改变。
 
 ## 验证与已知边界
 
@@ -56,3 +76,5 @@ ZIP 包含精选工程验收日志和人工测试会话，可能出现本地路�
 Microbiome is an Apache-2.0 bioinformatics workflow engine for existing agent hosts. Version 0.2.5 r10 provides complete source, matching Harness integration, offline Python dependencies, workflow/visualization guidance, tests and curated engineering validation evidence. Download the complete ZIP from Releases or the separate 888-file source snapshot above. The bundled wheels target Linux x86_64 / Python 3.13.
 
 The native Harness synthetic TSV task reached COMPLETED and passed 49 independent audit checks. This verifies software execution for that task; it does not certify every scientific workflow. See the release notes, installation guide and validation report for capabilities and remaining limitations. Earlier root-level artifacts are retained as historical references.
+
+The complete Chinese manual is now available online and inside the installation ZIP: 119 pages, 8 diagrams, installation, host adaptation, operations, recovery, software/database catalog and analysis methods. The executable bundle remains unchanged.
