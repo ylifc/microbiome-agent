@@ -1,0 +1,16 @@
+{
+  "release": "0.2.5-r10-public",
+  "verified_on": "2026-10-19",
+  "counts": {
+    "software": 107,
+    "database": 33,
+    "host_skill": 2,
+    "workflow": 22
+  },
+  "skills_total": 142,
+  "notes": [
+    "Counts represent documents, not installed tools or completed scientific validation.",
+    "document_version is a document schema/reference version, not the installed software or database release.",
+    "Sensitive-method entries are indexed by identity only; this inventory is not an execution recipe."
+  ]
+}

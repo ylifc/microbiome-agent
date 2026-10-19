@@ -1,0 +1,19 @@
+{
+  "software": {
+    "expected": 107,
+    "written": 107,
+    "missing": [],
+    "extra": [],
+    "duplicates": []
+  },
+  "database": {
+    "expected": 33,
+    "written": 33,
+    "missing": [],
+    "extra": [],
+    "duplicates": []
+  },
+  "characters": 14594,
+  "han_characters": 7771,
+  "purpose": "catalog coverage only; no installation or scientific execution"
+}

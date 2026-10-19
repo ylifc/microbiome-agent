@@ -1,0 +1,292 @@
+{
+  "basis": "0.2.5-r10-public",
+  "note": "MCP signatures and JSON CLI operation names extracted statically. These are not native Harness signatures; descriptions are from this release, not a statement of tested compatibility on every host.",
+  "mcp_tool_count": 22,
+  "json_cli_operation_count": 31,
+  "mcp_tools": [
+    {
+      "name": "microbiome_visualization",
+      "signature": "microbiome_visualization(action: str, arguments: dict | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 19,
+      "description": "Read figure reference; register existing images as preview; inspect integrity; or record visual review.\n\naction: reference|manifest|inspect|review. No rendering, package installation, scientific\napproval or project-state mutation. Review requires actual image inspection, reviewer,\nobservations, required image keys and checks, bound to the exact manifest_sha256.\nCLI equivalents are visualization.reference/.manifest/.inspect/.review."
+    },
+    {
+      "name": "microbiome_sequence_stats",
+      "signature": "microbiome_sequence_stats(inputs: list[str], output: str, paired: bool=False)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 32,
+      "description": "Inspect one/two explicit local FASTA/FASTQ files, including gzip, without a model or scientific pipeline.\n\nCreates only statistics and execution provenance in a new output directory outside input directories.\nVerifies nucleotide records, lengths/GC and optional paired FASTQ identifiers (R1,R2 order).\nBounded to 256 MiB decompressed input and 2,000,000 total records. No approval/state changes,\nnetwork, downloads, installation or scientific commands; never substitutes for a frozen analysis."
+    },
+    {
+      "name": "microbiome_catalog",
+      "signature": "microbiome_catalog(action: str='list', query: str='', workflow_id: str='', limit: int=4)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 43,
+      "description": "List workflow metadata, show one guide, or search curated analysis guidance; never runs tools."
+    },
+    {
+      "name": "microbiome_software_inspect",
+      "signature": "microbiome_software_inspect(project: str, logical_tool: str, executable: str | None=None, software_family: str | None=None, environment_name: str | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 54,
+      "description": "Inspect existing environments, executable/version/help and package ownership without installation/writeback.\n\nKeep logical capability, executable, software family and preferred environment separate.\nMissing mapping is discovery work, not a reason to guess a package or install software."
+    },
+    {
+      "name": "microbiome_capabilities",
+      "signature": "microbiome_capabilities(project: str | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 65,
+      "description": "Read actual backend version, contracts and effective phase permissions without starting analysis."
+    },
+    {
+      "name": "microbiome_database",
+      "signature": "microbiome_database(project: str, operation: str, user_message: str, message_id: str, arguments: dict | None=None, session_id: str='portable-host')",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 70,
+      "description": "Discover local candidates, inspect READY records, validate evidence, or bind within approved scope.\n\nValidation saves a receipt but never modifies the resource. Binding requires a current\ndependency approval in BOOTSTRAP/PRETEST_REPAIR. Forward real user provenance; no\napproval flags or arbitrary registry writes are accepted."
+    },
+    {
+      "name": "microbiome_project_status",
+      "signature": "microbiome_project_status(project: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 88,
+      "description": "Read persistent project state, approvals and report paths across host conversations."
+    },
+    {
+      "name": "microbiome_maintenance",
+      "signature": "microbiome_maintenance(project: str, operation: str, user_message: str, message_id: str, arguments: dict | None=None, session_id: str='portable-host', host_events: list[dict] | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 93,
+      "description": "Inspect, list/read evidence, write_draft, repair_input, cleanup, export or planning_policy.\n\nForward the actual user request and stable message/session IDs; never invent consent.\nPhase and ownership restrictions apply even with broad host permissions. Use inspect\nto see supported parameters; cleanup can affect only registered task-owned artifacts.\nSame request_id retries are idempotent. Drafts never imply scientific approval.\nExport can include host-provided transcript events; otherwise it identifies project-only\ncoverage. External export destinations must be explicitly designated by the user."
+    },
+    {
+      "name": "microbiome_planning_recovery",
+      "signature": "microbiome_planning_recovery(project: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 117,
+      "description": "Read current planning checkpoint/evidence. Harness resumes via its host model tool.\n\nPortable hosts use the returned facts with their existing plan design/save APIs;\nthis read-only operation never replays a user approval or runs scientific tools."
+    },
+    {
+      "name": "microbiome_resolve_input",
+      "signature": "microbiome_resolve_input(project: str, declaration: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 126,
+      "description": "Resolve explicit local files/manifest into a pending input proposal; never approve or download."
+    },
+    {
+      "name": "microbiome_resolve_derived_input",
+      "signature": "microbiome_resolve_derived_input(project: str, parent_run_id: str, samples: list[dict], cohort_artifacts: dict | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 131,
+      "description": "Propose all sample-owned outputs from a completed cohort run; never approve."
+    },
+    {
+      "name": "microbiome_resolve_external_cohort_input",
+      "signature": "microbiome_resolve_external_cohort_input(project: str, local_roots: list[str], samples: list[dict], cohort_artifacts: dict, provenance: dict | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 138,
+      "description": "Propose full local cohort matrices/annotations with explicit columns; never approve."
+    },
+    {
+      "name": "microbiome_propose_requirement",
+      "signature": "microbiome_propose_requirement(project: str, topic: str, value: dict)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 145,
+      "description": "Propose dataset, target or analysis_goal for operator review; does not confirm it."
+    },
+    {
+      "name": "microbiome_planning_context",
+      "signature": "microbiome_planning_context(project: str, query: str, workflow_ids: list[str] | None=None, visualization_topics: list[str] | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 150,
+      "description": "Read selected full workflow guides and project evidence after requirements/input confirmation.\n\nFor each selected reference, the candidate plan must provide workflow_decisions with\nworkflow_id, disposition (use/adapt/not_applicable), reason and actual step_ids."
+    },
+    {
+      "name": "microbiome_plan",
+      "signature": "microbiome_plan(plan: dict, project: str='', save: bool=False)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 161,
+      "description": "Validate a candidate plan; optionally persist it for review after requirements are confirmed."
+    },
+    {
+      "name": "microbiome_dependencies",
+      "signature": "microbiome_dependencies(project: str, review_confirmed_plan: bool=False, plan: dict | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 166,
+      "description": "Preview local resources or create the dependency decision report for an already confirmed plan. No install."
+    },
+    {
+      "name": "microbiome_decision_review",
+      "signature": "microbiome_decision_review(project: str, topic: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 174,
+      "description": "Get exact material/fingerprint for an operator decision. This tool cannot approve anything."
+    },
+    {
+      "name": "microbiome_approval_mode",
+      "signature": "microbiome_approval_mode(project: str, action: str='inspect', mode: str='', user_request: str='', source: str='', scope: str='', topics: list[str] | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 179,
+      "description": "Inspect mode or configure project delegation only at the user's explicit request.\n\nPreserve the real user request, conversation source, scope and allowed topics.\nThis records a host assertion, not independent authentication. Interactive mode\nuses an empty topic list and stops future delegated decisions, not existing jobs."
+    },
+    {
+      "name": "microbiome_record_decision",
+      "signature": "microbiome_record_decision(project: str, topic: str, action: str, expected: str, authorization_fingerprint: str, reason: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 196,
+      "description": "Record a reviewed decision under explicit project delegation, retaining all scientific gates.\n\nRead decision_review first; pass its full current fingerprint and the active\nauthorization fingerprint. Explain the review in reason. Never invent the user's\nrequest or use this when project delegation is absent or outside its scope."
+    },
+    {
+      "name": "microbiome_job_start",
+      "signature": "microbiome_job_start(project: str, operation: str, request_id: str, parameters: dict | None=None)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 209,
+      "description": "Start bootstrap, resolve_databases, pretest, finalize or frozen production behind existing approval gates.\n\nBootstrap may install only dependencies already explicitly approved in the current dependency plan.\nReuse the same request_id when retrying submission; query the returned durable job_id after disconnects."
+    },
+    {
+      "name": "microbiome_job_status",
+      "signature": "microbiome_job_status(project: str, job_id: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 218,
+      "description": "Read durable local job status and result/log paths; a dead worker is reported as interrupted."
+    },
+    {
+      "name": "microbiome_job_cancel",
+      "signature": "microbiome_job_cancel(project: str, job_id: str)",
+      "source_path": "microbiome/integrations/mcp_server.py",
+      "line": 223,
+      "description": "Cancel only the verified process group for this local job; never deletes project artifacts."
+    }
+  ],
+  "json_cli_operations": [
+    {
+      "operation": "runtime.capabilities",
+      "handler": "runtime_capabilities"
+    },
+    {
+      "operation": "database.operate",
+      "handler": "database_service"
+    },
+    {
+      "operation": "visualization.reference",
+      "handler": "reference"
+    },
+    {
+      "operation": "visualization.manifest",
+      "handler": "manifest"
+    },
+    {
+      "operation": "visualization.inspect",
+      "handler": "inspect"
+    },
+    {
+      "operation": "visualization.review",
+      "handler": "review"
+    },
+    {
+      "operation": "catalog.list",
+      "handler": "catalog_list"
+    },
+    {
+      "operation": "catalog.show",
+      "handler": "catalog_show"
+    },
+    {
+      "operation": "catalog.search",
+      "handler": "catalog_search"
+    },
+    {
+      "operation": "project.inspect",
+      "handler": "inspect_project"
+    },
+    {
+      "operation": "software.inspect",
+      "handler": "inspect_software"
+    },
+    {
+      "operation": "project.maintain",
+      "handler": "maintain_project"
+    },
+    {
+      "operation": "project.recovery",
+      "handler": "planning_recovery"
+    },
+    {
+      "operation": "input.resolve",
+      "handler": "resolve_input"
+    },
+    {
+      "operation": "input.resolve_derived",
+      "handler": "resolve_derived_input"
+    },
+    {
+      "operation": "input.resolve_external_cohort",
+      "handler": "resolve_external_cohort_input"
+    },
+    {
+      "operation": "planning.context",
+      "handler": "planning_context"
+    },
+    {
+      "operation": "requirements.propose",
+      "handler": "propose_requirement"
+    },
+    {
+      "operation": "plan.validate",
+      "handler": "validate_plan"
+    },
+    {
+      "operation": "plan.save",
+      "handler": "save_plan"
+    },
+    {
+      "operation": "dependencies.preview",
+      "handler": "preview_dependencies"
+    },
+    {
+      "operation": "dependencies.review",
+      "handler": "review_dependencies"
+    },
+    {
+      "operation": "decision.inspect",
+      "handler": "decision_snapshot"
+    },
+    {
+      "operation": "job.start",
+      "handler": "start_job"
+    },
+    {
+      "operation": "job.status",
+      "handler": "job_status"
+    },
+    {
+      "operation": "approval.configure",
+      "handler": "configure_authorization"
+    },
+    {
+      "operation": "approval.inspect",
+      "handler": "inspect_authorization"
+    },
+    {
+      "operation": "decision.record",
+      "handler": "record_decision"
+    },
+    {
+      "operation": "job.cancel",
+      "handler": "cancel_job"
+    },
+    {
+      "operation": "job.recover",
+      "handler": "recover_job"
+    },
+    {
+      "operation": "sequence.stats",
+      "handler": "sequence_stats"
+    }
+  ],
+  "source_sha256": {
+    "microbiome/integrations/mcp_server.py": "2950ec090dc51e2d8d99d87c0eb11b3089e8ed3b386f50964324dbf2d5f78b41",
+    "microbiome/integrations/service.py": "64abbbf645b3b5c453acd430c0e38e22067e752dd376269b829abb238eec5ad4"
+  }
+}

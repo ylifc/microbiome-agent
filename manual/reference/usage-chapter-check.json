@@ -1,0 +1,81 @@
+{
+  "document": "chapters/03_usage_operations.md",
+  "characters": 32996,
+  "han_characters": 13899,
+  "lines": 770,
+  "fences_balanced": true,
+  "syntax_checks": [
+    {
+      "block": 1,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 2,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 3,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 4,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 5,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 6,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 7,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 8,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 9,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 10,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 11,
+      "language": "json",
+      "valid": true
+    },
+    {
+      "block": 18,
+      "language": "embedded_python",
+      "valid": true
+    },
+    {
+      "block": 19,
+      "language": "json",
+      "valid": true
+    }
+  ],
+  "artificial_input": {
+    "bytes": 46,
+    "sha256": "a1d586e36446e12c8024119db47646b958e9c345224761c0549aad19fe5d5f24"
+  },
+  "product_code_changed": false,
+  "scientific_execution_performed": false,
+  "sha256": "4ddb80d0efabfc5f170bb408732da38fa65a857a54dc6892454a9e9d305ea5b6"
+}

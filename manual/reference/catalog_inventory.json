@@ -1,0 +1,1494 @@
+{
+  "release": "0.2.5-r10-public",
+  "verified_on": "2026-10-19",
+  "counts": {
+    "software": 107,
+    "database": 33,
+    "host_skill": 2,
+    "workflow": 22
+  },
+  "skills_total": 142,
+  "notes": [
+    "Counts represent documents, not installed tools or completed scientific validation.",
+    "document_version is a document schema/reference version, not the installed software or database release.",
+    "Sensitive-method entries are indexed by identity only; this inventory is not an execution recipe."
+  ],
+  "records": [
+    {
+      "kind": "software",
+      "id": "abricate",
+      "name": "ABRicate",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/abricate/SKILL.md",
+      "sha256": "4b37681526420c5c72de3b6d9bb23aa77d1ffd85c63013c55c6af7d170fbf56e",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "aldex2",
+      "name": "ALDEx2",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/aldex2/SKILL.md",
+      "sha256": "c8353bdd02790e881ba553b925e5aeabf9c15eff4733f11ca9f235fa893f34a6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "amrfinderplus",
+      "name": "NCBI AMRFinderPlus",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/amrfinderplus/SKILL.md",
+      "sha256": "b658442d9f94e6168b7ee111777e85fe66dbe74071dd263e0c06a95444f5159c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "ancombc2",
+      "name": "ANCOM-BC2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/ancombc2/SKILL.md",
+      "sha256": "c61dc43b8906f2d1135d788124197cd806f927fc1fa2cade7fe23db84a42104c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "antismash",
+      "name": "antiSMASH",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/antismash/SKILL.md",
+      "sha256": "32817d161fa67ea799abea77480986334ce9c1015ca0d6d63a23916ab6643525",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bakta",
+      "name": "Bakta",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/bakta/SKILL.md",
+      "sha256": "019ba2615fc812949a1879d308e6784b88176f150f0153e9e5fc0d0d10bce64b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "barrnap",
+      "name": "barrnap",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/barrnap/SKILL.md",
+      "sha256": "27ffc9ffc5ed9c9d5e7150d130428b3acb38a26e0d24389aa77fd7d4bf5a41cb",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bbmap",
+      "name": "BBMap",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/bbmap/SKILL.md",
+      "sha256": "4cd97fe7595f877ef2b1f01948f37ee8f60872ee1b3d9f08b77bcc9f7e55b252",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bcftools",
+      "name": "BCFtools",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/bcftools/SKILL.md",
+      "sha256": "60907cfca5012f6946430301b762302e46614b175c6110939a1dbf448260da2b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "beast2",
+      "name": "BEAST 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/beast2/SKILL.md",
+      "sha256": "5490d2400a5a6c42cc17396e92586c053dd4fb35aa959b87ef9be704ef135287",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "biom-format",
+      "name": "BIOM format",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/biom-format/SKILL.md",
+      "sha256": "9c6d49177dc56d5c91f32736d56746699874aac6dd785af0c1bbea83c3d41a92",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bowtie2",
+      "name": "Bowtie 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/bowtie2/SKILL.md",
+      "sha256": "8369e705695e6c261effa09d0a14e1edd9032c3f8d588c878067ae9a704a19a3",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bracken",
+      "name": "Bracken",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/bracken/SKILL.md",
+      "sha256": "e83eb9abb376affdccc9af2b3bb8fa9156dd5871cc346ac28de4bfccafdb95aa",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "bwa",
+      "name": "BWA",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/bwa/SKILL.md",
+      "sha256": "8a14672eacbda67424bc12c703b56e65e17aa1790df32e7d5f63975d9585c0f2",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "checkm",
+      "name": "CheckM",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/checkm/SKILL.md",
+      "sha256": "d5ef639d0a03937bb391393e8b93ea67a11426ae33230923c04b615c727ae3a3",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "checkm2",
+      "name": "CheckM2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/checkm2/SKILL.md",
+      "sha256": "ab4660e622fd0155f9a0c09a379f052bf6b1d39ca2ccd6e7088b74a92aab1909",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "checkv",
+      "name": "CheckV",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/checkv/SKILL.md",
+      "sha256": "c584dc87c4de6175af480bef1cc3158e8ec2f5a8422acbc9a84210485139e162",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "chopper",
+      "name": "Chopper",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/chopper/SKILL.md",
+      "sha256": "e007518f57d1e71d279c777535d5f14fd9703cd4f99487098ce5a59d91af6f65",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "clonalframeml",
+      "name": "ClonalFrameML",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/clonalframeml/SKILL.md",
+      "sha256": "b6c7c8319fe45e6763b7583ac891a3e308a42b00e1a69cc256216af2079e25ae",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "concoct",
+      "name": "CONCOCT",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/concoct/SKILL.md",
+      "sha256": "e6ec9f5257b056f1decc1db141cd493484c1447f1625531d0c863607b47d1484",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "coverm",
+      "name": "CoverM",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/coverm/SKILL.md",
+      "sha256": "153a9a351781a4b080296b6fbdb545e503ff9eea1346036255ee617011c7494b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "cutadapt",
+      "name": "Cutadapt",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/cutadapt/SKILL.md",
+      "sha256": "9acd5d4b98bb5678ec49b75e626fe5f154ebfa091bede6fac153b0ec636bf2e1",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "dada2",
+      "name": "DADA2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/dada2/SKILL.md",
+      "sha256": "2a0ee3a6e5d8cdced6fd6b4dc36e1c5d501c4c536eb1121af0cf762bc7c64770",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "dastool",
+      "name": "DAS Tool",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/dastool/SKILL.md",
+      "sha256": "f4aa476bc64afa1779a628443db5322da923e05e078611c98682bb5182d71476",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "dbcan",
+      "name": "dbCAN",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/dbcan/SKILL.md",
+      "sha256": "0ea3bee3ee32e8a3b2d683b31912d777d883d691d90e553fe525f558fe2b02d4",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "decontam",
+      "name": "decontam",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/decontam/SKILL.md",
+      "sha256": "f1f3458e5c843a2719f798d07dd3a6a8fafcb45455bfaf92cad5fdf5b94a5cd5",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "deseq2",
+      "name": "DESeq2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/deseq2/SKILL.md",
+      "sha256": "b4d11040922b8cf1c4e2001853a12b11c1370a8c2e0fdb1df1e995430aae74fe",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "diamond",
+      "name": "DIAMOND",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/diamond/SKILL.md",
+      "sha256": "e3be235e3abd3a7e791565e47cf8c3fb411382dca0c5d42c898e662a03531e68",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "drep",
+      "name": "dRep",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/drep/SKILL.md",
+      "sha256": "1b0dbcd991ea7da7ca8d44980b09a6d3bc162cfbccd0a0c170ae5626f1882d7f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "edger",
+      "name": "edgeR",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/edger/SKILL.md",
+      "sha256": "e203ad3a0624b35eb981683e5d703af586d8340b1b215235daf064e4ae555f5a",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "eggnog-mapper",
+      "name": "eggNOG-mapper",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/eggnog-mapper/SKILL.md",
+      "sha256": "6f0799b23dfefc34d25288e619da8e5c7a6a0072a7a23834876575026b52f2a8",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "fastani",
+      "name": "fastANI",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/fastani/SKILL.md",
+      "sha256": "5de7747817e4d781c56d65da9c191123c94f0c0bcf9d047c1f6f8cdc5fd84328",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "fastp",
+      "name": "fastp",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/fastp/SKILL.md",
+      "sha256": "d114e29144eb8ff0f36e2c46dc8ae2bbd440a1b3d9eb8354635da6558ace8e2d",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "fastqc",
+      "name": "FastQC",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/fastqc/SKILL.md",
+      "sha256": "d290974e867908aef7fc495eb88b1097f0ae0c507558ac9048ee6ed548a2fc22",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "fasttree",
+      "name": "FastTree",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/fasttree/SKILL.md",
+      "sha256": "2885f1897aadca5c79b7508e790e6a55c8a15f01691e7e9977d65d7e2a3fdce9",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "flye",
+      "name": "Flye",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/flye/SKILL.md",
+      "sha256": "f28ec13cb163a8b627a68eaf73c7cf64699c1e627597ca6aa82956dcbe6f07fb",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "genomad",
+      "name": "geNomad",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/genomad/SKILL.md",
+      "sha256": "4262545f48ad677db3afe26f908dfc8f0e62404057dddabdae124463b0c59504",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "gget",
+      "name": "gget",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/gget/SKILL.md",
+      "sha256": "854c6fd10992bfe77a08b78c68081e6a9ec96af21ab65a4cc8cd373087a6a402",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "gtdbtk",
+      "name": "GTDB-Tk",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/gtdbtk/SKILL.md",
+      "sha256": "0429a89c42435e5b63fe58a50d35110ce2c8e8ec79196e99aee00a451b69e953",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "gubbins",
+      "name": "Gubbins",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/gubbins/SKILL.md",
+      "sha256": "62ff0c0c8fc742ad26fc0ac5330dc5fcde40c670855b75b61530143330681371",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "gunc",
+      "name": "GUNC",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/gunc/SKILL.md",
+      "sha256": "ad2dd42222856cc92dcea0673312564ae3c613a95b1166dc77e135732ba030ae",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "hmmer",
+      "name": "HMMER",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/hmmer/SKILL.md",
+      "sha256": "b2dfae8b13b7facc76d4fc76ef46abce7e451864a307a6c7e316f7cae72bc01d",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "humann",
+      "name": "HUMAnN",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/humann/SKILL.md",
+      "sha256": "da0b71686cdfe3f73cc46222d3eb2c0d3e754a504e88c8a974c53c129256bda2",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "instrain",
+      "name": "inStrain",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/instrain/SKILL.md",
+      "sha256": "674e2d5a0a32c89415a4605446e6ec6af479e526277e8fe88bfacbabf54efca8",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "integronfinder",
+      "name": "IntegronFinder",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/integronfinder/SKILL.md",
+      "sha256": "f774d77c0fce31a8d9b9518febe2ed8f32bee2bd64f4b6be513985b6571c51ea",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "iqtree2",
+      "name": "IQ-TREE 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/iqtree2/SKILL.md",
+      "sha256": "442749c35a5bb83dc957c4f89b8428010ca34cdbd8731e3fca18a855c636880e",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "iqtree3",
+      "name": "IQ-TREE 3",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/iqtree3/SKILL.md",
+      "sha256": "b512da325b683a5ce07a861c339e16033315b16f4508d6c48edfdf31fb08c006",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "islandpath",
+      "name": "IslandPath-DIMOB",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/islandpath/SKILL.md",
+      "sha256": "6f80e804a6c6859ac18323b6a785bee952801a1507c4461b4adb7e1eb387a105",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "kneaddata",
+      "name": "KneadData",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/kneaddata/SKILL.md",
+      "sha256": "8eebea03ef1fabe9c3fe48e6155ddc1be240d469eb3644c3ed2ea445091f4a51",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "kofamscan",
+      "name": "KofamScan",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/kofamscan/SKILL.md",
+      "sha256": "aa3d0376ef8312b2b54ee69685e07df5e1b932c4ba3f4641e345ce2f0a729ed6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "kraken2",
+      "name": "Kraken2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/kraken2/SKILL.md",
+      "sha256": "46e13a051cdb78073df9129142ca26f18ae2d6c90f0d3bf9e34b198d31dd103a",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "maaslin3",
+      "name": "MaAsLin 3",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/maaslin3/SKILL.md",
+      "sha256": "8a1d41fb884d17f1f8504c3635ae5525b8d2a97beefc944f50dda74bf4ac7c3f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "macsyfinder",
+      "name": "MacSyFinder",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/macsyfinder/SKILL.md",
+      "sha256": "8d5bf6d270b0e71dc5b9565c4a6471918dba3aa5f66bd5d38c66a9b2d670b53c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "mafft",
+      "name": "MAFFT",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/mafft/SKILL.md",
+      "sha256": "d1bea62478481f811179361442dc775078378d1d31701490c5acb37fae33619f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "mash",
+      "name": "Mash",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/mash/SKILL.md",
+      "sha256": "22a8f62b504f309cd01bd9e6b19619e24aa0b4a9bebac4adb5a18421b6c533dc",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "maxbin2",
+      "name": "MaxBin 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/maxbin2/SKILL.md",
+      "sha256": "00b103ec3996ce0b79a052c4a8d8e564428f7dbf18cdbd809c7e2a7cbdbe6941",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "medaka",
+      "name": "Medaka",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/medaka/SKILL.md",
+      "sha256": "a40fe4136b2bd4233f8c26d89a02f8c8eac0365ac69cf5cd2263cf69653b1f1a",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "megahit",
+      "name": "MEGAHIT",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/megahit/SKILL.md",
+      "sha256": "b9379a54f8a878001c547efdc430f613f50fb295b01a59d912f1c4395dfd1121",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "metabat2",
+      "name": "MetaBAT 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/metabat2/SKILL.md",
+      "sha256": "93e56d54bf32b55d3665039a2e735c2e37469e27185cb8a76ba26e08656e77e4",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "metaphlan",
+      "name": "MetaPhlAn",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/metaphlan/SKILL.md",
+      "sha256": "6c1003058426e7aa2344eec75f8f392f340ed72880b748b8056c3d3b3667670c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "minimap2",
+      "name": "minimap2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/minimap2/SKILL.md",
+      "sha256": "df4f07e3709136164d632d0250603d009e4566dcc303dac312ce378d595f3c50",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "mlst",
+      "name": "mlst",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/mlst/SKILL.md",
+      "sha256": "430f05dc08498423337da60ee3bd91ff2e264549222cc23cf5b6e84c26c1c6a4",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "mmseqs2",
+      "name": "MMseqs2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/mmseqs2/SKILL.md",
+      "sha256": "35008f9a37344c7e923625347ddb09d52c08061c7ec738114f60b5d33e0fc5fe",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "mob-suite",
+      "name": "MOB-suite",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/mob-suite/SKILL.md",
+      "sha256": "f7e41a2959358c897e5c2ce708a99198f887d2b79fba4ae1cdfa38ce8396eb90",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "motus",
+      "name": "mOTUs",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/motus/SKILL.md",
+      "sha256": "20fe84b927c7c05293f97a373446a6e979ba0ad9c4bae11ddfd57422972c2259",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "multiqc",
+      "name": "MultiQC",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/multiqc/SKILL.md",
+      "sha256": "ee4590350005687ff544ec8fffc694a088c43598b40b88b9e6163ac6e66ff862",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "muscle",
+      "name": "MUSCLE",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/muscle/SKILL.md",
+      "sha256": "2b09a051f46eb798ea65bf553542dc303f88e2a3700130d9067cc20a3c75b8aa",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "nanoplot",
+      "name": "NanoPlot",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/nanoplot/SKILL.md",
+      "sha256": "6246ba83e5799f6b4d9b59c76811fb8234eba2b3bcd0a99a04bc5c9d249dbb1b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "ncbi-blast",
+      "name": "NCBI BLAST+",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/ncbi-blast/SKILL.md",
+      "sha256": "878d4c4c68d80e4fdaf979a90b1bb9ba2893ec7a1ee05a43f91687995e5800e9",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "ncbi-datasets",
+      "name": "NCBI Datasets CLI",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/ncbi-datasets/SKILL.md",
+      "sha256": "d4e696a9219ad03de3470a756d8ff7014a0d6e60a9516e68d0cbbad09df0645f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "ncbi-edirect",
+      "name": "NCBI Entrez Direct",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/ncbi-edirect/SKILL.md",
+      "sha256": "2098a2ba25e84662975a787ca0fd5593fcda2a9a111c8fa32ad0cb624911ac2d",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "paml",
+      "name": "PAML",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/paml/SKILL.md",
+      "sha256": "ee07a8db74afcd54aed51895fc03cd452ff51026cf028b3cf5fea3294c9be60b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "panaroo",
+      "name": "Panaroo",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/panaroo/SKILL.md",
+      "sha256": "e02a7e8b8d806bcf7334a71a704dcd1b449f23d2cabccedade360d0c55815fe0",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "phigaro",
+      "name": "Phigaro",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/phigaro/SKILL.md",
+      "sha256": "797b3b5e1bd69e3d966b10dd876d49cd3be5b90513d124006679a888659f3646",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "phispy",
+      "name": "PhiSpy",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/phispy/SKILL.md",
+      "sha256": "d605f3953b0bd0841a96bf0b1f9eb5c08bf9709150da7f19cd553698ac42cfcd",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "phyloseq",
+      "name": "phyloseq",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/phyloseq/SKILL.md",
+      "sha256": "449f1816a344541b91a615469604388328f55a410271b6f17a75da387f07e140",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "pilon",
+      "name": "Pilon",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/pilon/SKILL.md",
+      "sha256": "7f534a49889b41cf5ef30d722a5a1e7414fa70503cc22a962a21c5500c1d6e87",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "plasclass",
+      "name": "PlasClass",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/plasclass/SKILL.md",
+      "sha256": "1675b6ac0f918a2266482430423404cda521244400ab09fac5689a332f48cc93",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "plasflow",
+      "name": "PlasFlow",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/plasflow/SKILL.md",
+      "sha256": "4980278f4db188da81fb595d26b74bc417e02ec21df09d4cedcab36160fdfc0f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "prodigal",
+      "name": "Prodigal",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/prodigal/SKILL.md",
+      "sha256": "91bf530a08a3224ef50f2cc8a8e2313289ce89f17ba4930a6919d592222623ea",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "pvga",
+      "name": "PVGA",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/pvga/SKILL.md",
+      "sha256": "0fed33f2d0ff1015302c4b0c55603765bea553dc5aed60f32f9b469d1863a2d6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "qiime2",
+      "name": "QIIME 2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/qiime2/SKILL.md",
+      "sha256": "6386c0c3c080f04a38f391e12465799b15dbfe735f94b822b02700fbeb56229a",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "quast",
+      "name": "QUAST and metaQUAST",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/quast/SKILL.md",
+      "sha256": "8ae7b916a279aa4e1f8141b0ab068c45fee05e021bafd8aa357c7356823d9260",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "racon",
+      "name": "Racon",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/racon/SKILL.md",
+      "sha256": "2ac917953906ac7db7f80823aa462cc0bd5637fbff0bbd9dd964f382c737278f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "rgi",
+      "name": "Resistance Gene Identifier",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/rgi/SKILL.md",
+      "sha256": "06b5418b4ba91d65a26bd94edd4feb3b73218e54c4f48300c7b8e52166d9816b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "salmon",
+      "name": "Salmon",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/salmon/SKILL.md",
+      "sha256": "e79c3464c7fa70e8f53439ab3bf1f37471f1367f19367188aaa6df760ce74a66",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "samtools",
+      "name": "SAMtools",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/samtools/SKILL.md",
+      "sha256": "fd128448d1f12bc3bb1c263c55d4225d3308eee2e784f3d54e282c880f5a326e",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "scikit-bio",
+      "name": "scikit-bio",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/scikit-bio/SKILL.md",
+      "sha256": "6198ba90962494a8cf751236af353d2839448600d94e1c09eb200674112f4de3",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "semibin2",
+      "name": "SemiBin2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/semibin2/SKILL.md",
+      "sha256": "65f5e5f84ae27a7f4797999f69ec819bf6feb6a0985235951369d84d210d9ff4",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "seqkit",
+      "name": "SeqKit",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/seqkit/SKILL.md",
+      "sha256": "12f85f964c826630224f7b054211f626cb129545bac358f0eb3794ac8e60c94f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "skani",
+      "name": "skani",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/skani/SKILL.md",
+      "sha256": "d540d1992d49b2e9de673e0d16e5144f7fd99245c44ddd041fe2ddd424de0465",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "snippy",
+      "name": "Snippy",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/snippy/SKILL.md",
+      "sha256": "8aa9ba2615459b3c2ac36529a5d6a00856bc50c8ef49500395b50b793599a712",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "snp-dists",
+      "name": "snp-dists",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/snp-dists/SKILL.md",
+      "sha256": "11c6237dfd4de1d2b43c56aa9dc428dccd50e231bcef31f2535c30bf7be66dff",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "snp-sites",
+      "name": "SNP-sites",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/snp-sites/SKILL.md",
+      "sha256": "6d087c2fc511d839e3c3ab7da72e15b7c43b4ddf961b41608c86fc383f719c9e",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "sortmerna",
+      "name": "SortMeRNA",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/sortmerna/SKILL.md",
+      "sha256": "239f374a2bcc6b3da402d4609974d484d1cb6c878f5674c3539990cd48657a27",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "spades",
+      "name": "SPAdes",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/spades/SKILL.md",
+      "sha256": "96809244dfa264c2154310f5c56f2c28918065bfe224093fb4e077b35ffe1812",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "sra-toolkit",
+      "name": "SRA Toolkit",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/sra-toolkit/SKILL.md",
+      "sha256": "dfe1523a8fbfbc3e619e2930e2dd1c4d5eb20b259a2201e841eaefb96c9583de",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "subread",
+      "name": "Subread",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/subread/SKILL.md",
+      "sha256": "438b694a7932d4290447239a9eeab88f40dcf84499f87c844a41ef47536010ad",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "sylph",
+      "name": "Sylph",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/sylph/SKILL.md",
+      "sha256": "ec60998137e3aa1d38dee630d00e242702e74f5ecc0dc434e9ab812c018de4b1",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "treetime",
+      "name": "TreeTime",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/treetime/SKILL.md",
+      "sha256": "9262d9be143cc25edb0f132bdecada148ce147b7d0ba30acde91d6af433a13a8",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "unicycler",
+      "name": "Unicycler",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/unicycler/SKILL.md",
+      "sha256": "2877e543a0c23acb76f60791b489212b7ec7eae4ac9e4925614cd16a575aa822",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "vadr",
+      "name": "VADR",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/vadr/SKILL.md",
+      "sha256": "052108b10af11b81333be45908387834f10593d6bd734b66cf3782ce8c25a29b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "vamb",
+      "name": "VAMB",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/vamb/SKILL.md",
+      "sha256": "76bf142f456e9e88d52a2ee4f5d91466418d741ac1a85f2fbee3c661d1be1043",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "vegan",
+      "name": "vegan",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/software/vegan/SKILL.md",
+      "sha256": "122800815c433cd21934309e7d3e53bc7a8c5483a9e4398c8f7fd3eba101e52c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "vibrant",
+      "name": "VIBRANT",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/vibrant/SKILL.md",
+      "sha256": "249a60ccd7bf4d64070654e12662414df465ad007826fb33e3941784bd1e57c7",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "virsorter2",
+      "name": "VirSorter2",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/virsorter2/SKILL.md",
+      "sha256": "2c5cdd49d231df94b1b95e2fabe21f7afa6f1c0c5f0e96ea36601b1d9fcca2d9",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "software",
+      "id": "vsearch",
+      "name": "VSEARCH",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/software/vsearch/SKILL.md",
+      "sha256": "84719618238bf6dea566d161d6dbd67f9917796665859c6b925ed4ef94e5542e",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "amrfinderplus",
+      "name": "AMRFinderPlus database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/amrfinderplus/SKILL.md",
+      "sha256": "f96f1ccbad1c84c9d842a20b8ffac0a72c82dcc32f3edb831bab3e38b381aed5",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "antismash",
+      "name": "antiSMASH databases",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/antismash/SKILL.md",
+      "sha256": "d724fce110e3d343a8d088089418e30260cbee4032b6ffb23341d1050efa3ce6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "bakta",
+      "name": "Bakta database",
+      "document_version": "5",
+      "source_path": "microbiome/resource_skills/database/bakta/SKILL.md",
+      "sha256": "d178afaeb40699e2e8e2612c3d4d2bf44d86aa1819072614ea39994b4ec9c118",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "card",
+      "name": "CARD",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/card/SKILL.md",
+      "sha256": "9dfd27da3ed52894437a977486b2755cd1fa3c44533fa965a48cb5207879978f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "checkm",
+      "name": "CheckM reference data",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/checkm/SKILL.md",
+      "sha256": "2a14ae7bc1dfe5330ed0f00ebdfba57373fcd8b19510c23bd6be597f698b7035",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "checkm2",
+      "name": "CheckM2 database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/checkm2/SKILL.md",
+      "sha256": "3561532056234b3507074a236b42ee4b5c5adaf486c5fcd1b829f5a891b05347",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "checkv",
+      "name": "CheckV database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/checkv/SKILL.md",
+      "sha256": "f99c0a840db41dedb980aa8af8746095ab1ef05c5a158d38e148a87ba8352810",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "cog",
+      "name": "COG2020",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/cog/SKILL.md",
+      "sha256": "22d5f717df42e3b9dcfe99d9f1a23b80281c618c3d54f0fd469428f25674d937",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "dbcan",
+      "name": "dbCAN annotation bundle",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/dbcan/SKILL.md",
+      "sha256": "82d09b6a071ee5887d397f078bc477d7d8ceb523bd244df7b80f0c25eb17206f",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "eggnog-mapper",
+      "name": "eggNOG-mapper database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/eggnog-mapper/SKILL.md",
+      "sha256": "dc6d6f52684fbc31bee87f2d833d5bee7695f18a564fcfde0e7553aa9b6a1f83",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "genomad",
+      "name": "geNomad database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/genomad/SKILL.md",
+      "sha256": "2b4c07c35e9a7d61ca153b62681eced37c31e5eadd0481f3648888deefd0bf09",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "gtdbtk",
+      "name": "GTDB-Tk reference data",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/gtdbtk/SKILL.md",
+      "sha256": "294766d19fa559d58bebf15a097f9ab049eb0a7856c1a4d373edf84337d9869c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "gunc",
+      "name": "GUNC database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/gunc/SKILL.md",
+      "sha256": "b0ad0aa7ff4db96bc263881a343720885444ea5350e102b37e5661c83eb64a3c",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "humann",
+      "name": "HUMAnN functional profiling databases",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/humann/SKILL.md",
+      "sha256": "4b6d4ebbb92bf8ddb1c64b74c7b256ef6cd36e9d4c95fd581b2a4003c2276265",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "kegg",
+      "name": "KEGG database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/kegg/SKILL.md",
+      "sha256": "850e882a57754b27753f01e40019ce64c9cae45b8caccbfb917e0f777ef7a0c0",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "kofam",
+      "name": "KOfam profile bundle",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/kofam/SKILL.md",
+      "sha256": "a38fb67a3b1adf1eae62185b3a0bb129d9c4ebeba6a37517a8d3d6432af248cc",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "kraken2",
+      "name": "Kraken2 database",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/kraken2/SKILL.md",
+      "sha256": "a1b5a2b4fe968c6e8dcaf27b064d7cff63fcff665ab78d1dcf2245c09d8c5021",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "metaphlan",
+      "name": "MetaPhlAn marker database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/metaphlan/SKILL.md",
+      "sha256": "2111123894b67efc4c77b857bacfb5b7f48f112955b9e25127054fd668aa9659",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "mob-suite",
+      "name": "MOB-suite databases",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/mob-suite/SKILL.md",
+      "sha256": "d6cc09217f811f4bf003c674c86af6212fdfd8d91d731e641e7f61819fa3fb47",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "motus",
+      "name": "mOTUs marker reference",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/motus/SKILL.md",
+      "sha256": "a5a26cb1d3f7a8351897180913feeab68f28b921df52f7b28ac06a4768b84eb2",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "nr",
+      "name": "NCBI non-redundant proteins",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/nr/SKILL.md",
+      "sha256": "65be8fc9f93fd24a37959a4890783ef289f2e13ccc981e45c50ba876793bb8e3",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "pfam",
+      "name": "Pfam database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/pfam/SKILL.md",
+      "sha256": "74adce53d19ea3b9a194f027c82750252737d933c77f6fccc691e49cf55ccf3b",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "plasmidfinder",
+      "name": "PlasmidFinder database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/plasmidfinder/SKILL.md",
+      "sha256": "1e473924e184becba0d031a537c0d987e337c45d6df484d1809cd1d62d5e7816",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "qiime2",
+      "name": "QIIME 2 classifier",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/qiime2/SKILL.md",
+      "sha256": "56f9effdf264899a40f5c0bf8edd56d6d56c1a0b9433af50ca770bc7108e1f84",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "reference-genomes",
+      "name": "Local reference genome collection",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/reference-genomes/SKILL.md",
+      "sha256": "c3f328f3699353d146bb2eff03ea6070f3647abc1b15c610d2ea02a9fa2a67c7",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "reference-sequences",
+      "name": "Local accession-pinned reference sequences",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/reference-sequences/SKILL.md",
+      "sha256": "5aa1d9d3ef39cb2eded4be4ace96f10f0ca2926bb8a57a71ac0b666259fa15e6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "silva",
+      "name": "SILVA ribosomal RNA reference",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/silva/SKILL.md",
+      "sha256": "057863597b79d936ef9ae9b17c30b49abf4db84efa800b56f5e1b822611f682a",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "sortmerna-rrna",
+      "name": "SortMeRNA rRNA references",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/sortmerna-rrna/SKILL.md",
+      "sha256": "1679d854c941e9929a6f661d69ace683065f7f80528b8ed4168d0b58b6866eb1",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "swissprot",
+      "name": "UniProt Swiss-Prot",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/swissprot/SKILL.md",
+      "sha256": "b96718218a83eebc921e321977f71ce8ab0ab13b339421e3c8109b5ccb989d2d",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "tcdb",
+      "name": "Transporter Classification Database",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/tcdb/SKILL.md",
+      "sha256": "d1e080ee6e35556bd7a42e1f737ba0bd0dc4198763b520820c19c640abdbe6a1",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "unite",
+      "name": "UNITE ITS reference",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/unite/SKILL.md",
+      "sha256": "0b5a4b3c891246e675e7b6239c05763c4a09b08d7782964b0ec36e57351f8aa0",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "vfdb",
+      "name": "VFDB (Virulence Factor Database)",
+      "document_version": "2",
+      "source_path": "microbiome/resource_skills/database/vfdb/SKILL.md",
+      "sha256": "addb20208ea564f0eff49dab89bff309d4da4486d23242451a63e0c1b74bff72",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "database",
+      "id": "virus-genomes",
+      "name": "Local virus genome collection",
+      "document_version": "3",
+      "source_path": "microbiome/resource_skills/database/virus-genomes/SKILL.md",
+      "sha256": "4ddbd9b7ecff1fa1abb3dea58879881dc1c300d5570d36c1254bd4d0d35d92fe",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "host_skill",
+      "id": "microbiome-visualization",
+      "name": "microbiome-visualization",
+      "document_version": "not_declared",
+      "source_path": "microbiome/integrations/templates/skills/microbiome-visualization/SKILL.md",
+      "sha256": "b7de4420f4f247a52185908bdc8d7f0184b0a3d9cc3675667a528e4147a1527d",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "host_skill",
+      "id": "microbiome-workflow",
+      "name": "microbiome-workflow",
+      "document_version": "not_declared",
+      "source_path": "microbiome/integrations/templates/skills/microbiome-workflow/SKILL.md",
+      "sha256": "5888070187240435a2f1276b74d592a887836f95a86fb6e2fe13dbe4e37739b6",
+      "local_installed_status": "NOT_ASSERTED"
+    },
+    {
+      "kind": "workflow",
+      "id": "amplicon",
+      "name": "16S、18S 与 ITS 扩增子分析",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/amplicon/workflow.yaml",
+      "sha256": "86127d40189381c7aa0ba82f3fd3785e52a5721b81c35557fd49f96328e7d899",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "assembly-mag",
+      "name": "宏基因组细菌与古菌 MAG 重建",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/assembly-mag/workflow.yaml",
+      "sha256": "96d0865a82de419b4468d229d869efd4089354a2307f07d95cac83b645d15987",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "bacterial-archaeal-phylogeny",
+      "name": "细菌与古菌系统发育及系统基因组学",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/bacterial-archaeal-phylogeny/workflow.yaml",
+      "sha256": "52accdc5bd9308e569ad4857d0051b6e5fc0db76ad52c064532302607878c00c",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "comparative-outbreak-genomics",
+      "name": "分离株比较基因组与群体系统关系",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/comparative-outbreak-genomics/workflow.yaml",
+      "sha256": "43e549ac822324d9edd647bd37ebaf499f986e40ed884b06bfa5bddd3017a78f",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "dna-virus",
+      "name": "DNA 病毒序列组装、共识与质量评价",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/dna-virus/workflow.yaml",
+      "sha256": "2c76f2459a589ab13ee503b37b7404c99da1deb92f9d76a46ca4be280490c71c",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "fungal-mag",
+      "name": "宏基因组真菌 MAG 重建与真核质量评价",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/fungal-mag/workflow.yaml",
+      "sha256": "5760fa1108a8e2f6e6abdd837c6a2dd56d0fac699c014300d11f7d67193fe4c5",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "fungal-metagenome-contigs",
+      "name": "宏基因组真菌 contig 识别与功能分析",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/fungal-metagenome-contigs/workflow.yaml",
+      "sha256": "697d0f7a69127503e8001e7aaac860439a764ba3cc0d61194ed3184acda6c458",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "host-associated-depletion",
+      "name": "宿主相关与共生菌数据的宿主识别和去除",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/host-associated-depletion/workflow.yaml",
+      "sha256": "bfc467a3e4be7aba41e9e48902be84c7d7790b0a75210b7e5da70ed108cf8117",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "long-hybrid-isolate",
+      "name": "长读长与混合测序单菌基因组组装",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/long-hybrid-isolate/workflow.yaml",
+      "sha256": "9ac9bcc1a0dc4427123ca7761c43ba9564c781ce97678cd3f80caea38d60b63a",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "metagenome-contigs",
+      "name": "宏基因组 contig 与基因目录分析（不分箱）",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/metagenome-contigs/workflow.yaml",
+      "sha256": "bfacaa3ee334922b7a301bead68c42f405f177095eb7ec2468dc20ca3de24ae5",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "metatranscriptome-bacterial-mag",
+      "name": "宏转录组联合细菌与古菌 MAG 表达分析",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/metatranscriptome-bacterial-mag/workflow.yaml",
+      "sha256": "af1a5ef642525b3cd92631772cd7f1f6cea869c0e092c71c0955f50f8528dcf0",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "metatranscriptome-eukaryotic-genomes",
+      "name": "宏转录组联合真核微生物基因组表达分析",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/metatranscriptome-eukaryotic-genomes/workflow.yaml",
+      "sha256": "9b0a0cd25b174d0730d752b962f0d0b7e8b70ad968d5b8ad917063ddb6946893",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "metatranscriptome-virome",
+      "name": "宏转录组病毒发现与表达证据分析",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/metatranscriptome-virome/workflow.yaml",
+      "sha256": "f0c0f95e1d6cd5a9a98e5c04fd136e9a86f7e0712a2916e29e77fbdef67fc348",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "microbial-functional-annotation",
+      "name": "微生物基因与蛋白功能注释",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/microbial-functional-annotation/workflow.yaml",
+      "sha256": "6349c2a96b77eb7900ed935301407808d997340b596b24a7696c512b620bbd27",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "microbial-rna",
+      "name": "单菌转录组：参考引导与无参考组装",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/microbial-rna/workflow.yaml",
+      "sha256": "624efbe449c2e3ebad57fa13b1419a7b185a2c025e623853ac917853bedb5b88",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "mobile-amr",
+      "name": "移动元件与耐药相关序列的计算注释",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/mobile-amr/workflow.yaml",
+      "sha256": "fb38e764cea276aafb6bdd63565c2354392d11be20f82cd09b601bed7cae1bf0",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "rna-virus",
+      "name": "RNA 病毒序列组装与参考共识",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/rna-virus/workflow.yaml",
+      "sha256": "03627eee710005fe963d6a0aaf18606fbe2a8bc3f5e1df404ece2f319154bfb5",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "sequence-statistics",
+      "name": "本地核酸 FASTA/FASTQ 检查与基础统计",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/sequence-statistics/workflow.yaml",
+      "sha256": "253d172747cdf43823e52c5afaef2bf53e99a89c19acc11694161a621f37fca4",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "short-read-isolate-wgs",
+      "name": "单菌短读长 WGS 组装与分析",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/short-read-isolate-wgs/workflow.yaml",
+      "sha256": "22446dbc277cf12afdaf76f50340339e0d3629ec493e3784d0965fdd1ed7133d",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "shotgun-taxonomy-function",
+      "name": "非组装型 shotgun 物种组成与功能谱",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/shotgun-taxonomy-function/workflow.yaml",
+      "sha256": "2586c359bee5c1fef8ca5854fc1aecf7979a2e497bf0384c82fe26da0c8d1074",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "viral-phylogeny",
+      "name": "病毒同源序列比较与系统发育",
+      "document_version": "1.0.0",
+      "source_path": "microbiome/workflows/viral-phylogeny/workflow.yaml",
+      "sha256": "eeaaf67bd435a8cc5b65f7bdb55ea8a759f8e6caa02e76c2b456a5c870092533",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    },
+    {
+      "kind": "workflow",
+      "id": "virome",
+      "name": "宏基因组病毒 contig 识别与质量评价",
+      "document_version": "1.0.1",
+      "source_path": "microbiome/workflows/virome/workflow.yaml",
+      "sha256": "5ab73be64c18678f130ef5a492a9c1985b04892b506411fb88e5899ed8e32f6d",
+      "local_installed_status": "CURATED_REFERENCE_NOT_EXECUTABLE"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "manual": "Microbiome Agent 0.2.5 完整说明书",
+  "date": "2026-10-19",
+  "engine_basis": "0.2.5 r10 public",
+  "pages_in_verified_render": 119,
+  "parts": 5,
+  "diagrams": 8,
+  "han_characters": 49948,
+  "content_characters": 106388,
+  "files": [
+    {
+      "path": "阅读说明.md",
+      "bytes": 2311,
+      "sha256": "ef83257f6d5a9ade29455e3b3380847b45687bc509d78e79e42405ab7ed00f04"
+    },
+    {
+      "path": "index.html",
+      "bytes": 264035,
+      "sha256": "cca42430cfb056c27a272aa9e2229a38b6fe56cc5e3572e5b14f95a27e5e5203"
+    },
+    {
+      "path": "Microbiome Agent 0.2.5 完整说明书.docx",
+      "bytes": 1871044,
+      "sha256": "0352c5c2ed55e3121768177b85a059385447bccde1058ee96e44af76251cb278"
+    },
+    {
+      "path": "Microbiome Agent 0.2.5 完整说明书.md",
+      "bytes": 215991,
+      "sha256": "763aacf6a4d6113f86b53f049ac650df4bbf49e982985f1e3f3a2eb5170f07a6"
+    },
+    {
+      "path": "chapters/01_overview.md",
+      "bytes": 11000,
+      "sha256": "d589996f258cea8ed9a8857b12c98492ffccf9569b5238381ee58644b76678d6"
+    },
+    {
+      "path": "chapters/02_install_adapt.md",
+      "bytes": 41900,
+      "sha256": "a4efb3f4a3aca682fc7b733f22375cb02f4753176887103ba6b99a64afc106d8"
+    },
+    {
+      "path": "chapters/03_usage_operations.md",
+      "bytes": 63646,
+      "sha256": "4ddb80d0efabfc5f170bb408732da38fa65a857a54dc6892454a9e9d305ea5b6"
+    },
+    {
+      "path": "chapters/04_methods_resources.md",
+      "bytes": 48671,
+      "sha256": "bfdf22a4690c19796b3df064cc76c0f224d6f12ca4b6cec4cf986767e765139e"
+    },
+    {
+      "path": "chapters/05_developer_reference.md",
+      "bytes": 18102,
+      "sha256": "f1d4bff04db0c306ccfb4f4cdce3919353b70e0a33473505486a740a04b8af2d"
+    },
+    {
+      "path": "diagrams/01_overview.mmd",
+      "bytes": 852,
+      "sha256": "7140c4f499e61fb231d46a419f7028ca3011b9903c4210f1e12407ad512d9b89"
+    },
+    {
+      "path": "diagrams/01_overview.png",
+      "bytes": 207850,
+      "sha256": "92ff543e9b1ba623b3cfd5ed95a1eab0466a706a48dac48e547f4293b95764c7"
+    },
+    {
+      "path": "diagrams/01_overview.svg",
+      "bytes": 5281,
+      "sha256": "0572963a8efd2e9a3a046fd21ed734ac785956787b56c4ba212e75569073f8e2"
+    },
+    {
+      "path": "diagrams/02_install.mmd",
+      "bytes": 852,
+      "sha256": "4d51f7581517eae459ef7f372c29070929a0700e3835392c5e45594749b29e59"
+    },
+    {
+      "path": "diagrams/02_install.png",
+      "bytes": 203345,
+      "sha256": "8add8f344c371e756755cf7fbcfa19eb57b09bf0f2b0d5bcc2b989bb1f09e7c3"
+    },
+    {
+      "path": "diagrams/02_install.svg",
+      "bytes": 5275,
+      "sha256": "2959fc7d9a3dfbca360cb45a1c9b4ae25e0f9a76a9e9cc8357e320c6aa8ac0a0"
+    },
+    {
+      "path": "diagrams/03_lifecycle.mmd",
+      "bytes": 1164,
+      "sha256": "8573afff139eace59495e48f0f3df287cad62035b7fc79ffd8816a00d901c410"
+    },
+    {
+      "path": "diagrams/03_lifecycle.png",
+      "bytes": 269217,
+      "sha256": "f0e8271ee1105aa63a1551a994c9249f5f09cbf1468975012da302f8e69da338"
+    },
+    {
+      "path": "diagrams/03_lifecycle.svg",
+      "bytes": 7668,
+      "sha256": "6c94de8e6e9a9e836900200d8d309ac4c6105f4c27d18641366fc0cfddf6ef79"
+    },
+    {
+      "path": "diagrams/04_inputs.mmd",
+      "bytes": 889,
+      "sha256": "e5a231b255d9203791d34b10ea3510883477c3f487f5824a6544754befc875e9"
+    },
+    {
+      "path": "diagrams/04_inputs.png",
+      "bytes": 216637,
+      "sha256": "6bfa5a1bd466e4e28df4e688969a1d05345666294d6074d9ac9fc5c7fa3d4528"
+    },
+    {
+      "path": "diagrams/04_inputs.svg",
+      "bytes": 5318,
+      "sha256": "d6659a78750bfa91677383fce159e22a03c8245a01b9efc27c7e7ab82ff0264b"
+    },
+    {
+      "path": "diagrams/05_resources.mmd",
+      "bytes": 909,
+      "sha256": "e6d801b42db2131998fd66d0f353c8584c282506a1914f737cff2443cfff11e6"
+    },
+    {
+      "path": "diagrams/05_resources.png",
+      "bytes": 208782,
+      "sha256": "e156f6eabd06af6cf356cef3a493c7f4870e03be1c482b3fb7abb0d2d3a86cdc"
+    },
+    {
+      "path": "diagrams/05_resources.svg",
+      "bytes": 6199,
+      "sha256": "e1ae94b91966bf3284497630efef411d09bb2c8981e30078076f533dc52089da"
+    },
+    {
+      "path": "diagrams/06_recovery.mmd",
+      "bytes": 905,
+      "sha256": "13ac62625bce550393be9287147ea1a3de48891934619c918c5ecb7f2e38ec1b"
+    },
+    {
+      "path": "diagrams/06_recovery.png",
+      "bytes": 221508,
+      "sha256": "8f48048b3ce96dfdaec2aaa6ebccc47869ee76c57280e081b762d826af89a31f"
+    },
+    {
+      "path": "diagrams/06_recovery.svg",
+      "bytes": 5328,
+      "sha256": "bc8239e80c40fd126710c32f08e0733896646cb029afe1719bab58fcad31965d"
+    },
+    {
+      "path": "diagrams/07_methods.mmd",
+      "bytes": 901,
+      "sha256": "13378aceea9ffa7e46d932ed761dc74c9371d95910b575fb539b1f33103bbe52"
+    },
+    {
+      "path": "diagrams/07_methods.png",
+      "bytes": 227527,
+      "sha256": "06cdbf92bb9707b97383b5ed351c16a8b9ee230ad656e7e79fea4073f517603e"
+    },
+    {
+      "path": "diagrams/07_methods.svg",
+      "bytes": 5339,
+      "sha256": "7e0b78bc9597dd2fffc425fcf0a2f0c1db92febadcc33ff657a83cbd1d3f4bd5"
+    },
+    {
+      "path": "diagrams/08_results.mmd",
+      "bytes": 925,
+      "sha256": "039025528716d0e3d2cc9c73fb3f408ef0c1eefd679ed2baffed4758401d0a58"
+    },
+    {
+      "path": "diagrams/08_results.png",
+      "bytes": 222738,
+      "sha256": "aec2a4b29538d2de9e874f2cf6e43496961505b1aa14c676cf5aac1ac4ba76fb"
+    },
+    {
+      "path": "diagrams/08_results.svg",
+      "bytes": 6206,
+      "sha256": "2517da96d35c88ff9ac17d43fde177d01c26c9b58467b8b3edaabac8b19840d4"
+    },
+    {
+      "path": "diagrams/index.json",
+      "bytes": 12270,
+      "sha256": "4d1251db6244432acdf76fb9dbde94f63175240359de7752d4f271993d4dbd2c"
+    },
+    {
+      "path": "reference/catalog-appendix-check.json",
+      "bytes": 367,
+      "sha256": "af50bd8d87d45a6d028d65573092472787f7b00feb02d409f5199b4b08ba684c"
+    },
+    {
+      "path": "reference/catalog-appendix.md",
+      "bytes": 31332,
+      "sha256": "c67f9a07cb1456b5d6f42d812510ebe453182a4b0adbb08668f554b70047ac63"
+    },
+    {
+      "path": "reference/catalog-summary.json",
+      "bytes": 515,
+      "sha256": "189c2e60d4820fba1810aca23784a250432e214b69a0afe1d958e5adacec8a11"
+    },
+    {
+      "path": "reference/catalog_inventory.csv",
+      "bytes": 28580,
+      "sha256": "c38c882f631954fd6006bd5190fdb2fb305b3c7743b977a65a302e4e8f432a1d"
+    },
+    {
+      "path": "reference/catalog_inventory.json",
+      "bytes": 56426,
+      "sha256": "065287dbbf6cdbd62a0bf162336b990cacadc4755aa831d71519181c621e888c"
+    },
+    {
+      "path": "reference/interface-signatures.json",
+      "bytes": 14143,
+      "sha256": "55864eddc12c048948042bb708c28040ffad7bf8b7d88532f5ddcfb5e65a9509"
+    },
+    {
+      "path": "reference/usage-chapter-check.json",
+      "bytes": 1469,
+      "sha256": "bd7a7cd33b35cba329b54bf2f5382dfac68b98a9964b96e9e67b882b0dc730c1"
+    }
+  ],
+  "quality_checks": {
+    "structural_passed": 16,
+    "structural_failed": 0,
+    "visual_pages_reviewed": 119,
+    "html": "Offline navigation, filtering and SVG figures checked in browser."
+  }
+}
